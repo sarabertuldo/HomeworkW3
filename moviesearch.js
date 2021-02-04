@@ -41,6 +41,7 @@ document.getElementById("fetch").addEventListener("click", function () {
             tempDiv.innerText = res.Search[i].Title;
             document.getElementById("resultsTitles").append(tempDiv);
         }
+        document.getElementById("pageNum").innerText = `You are viewing 1-10 of ${parseInt(res.totalResults)} results`
     });
     } else {
     document.getElementById("searchErr").innerText = "Please fix the errors above";

@@ -20,16 +20,34 @@
         display: block;
         margin: auto;
       }
+
+      .header {
+        font-size: 75px;
+        text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+      }
+
+      .container {
+        padding: 10px;
+        margin: auto;
+        width: 65%;
+        text-align: center;
+      }
+
+      .field {
+        width: 50%;
+        display: flex;
+      }
     </style>
   </head>
   <body>
-    <h1 class="text">IMDBB?</h1>
+    <h1 class="header">IMDBB?</h1>
     <img
       src="https://static.wikia.nocookie.net/soundeffects/images/1/14/Leo_the_Lion_Video_Footage/revision/latest/scale-to-width-down/340?cb=20180507014919"
       alt="MGM Lion"
       title="RAAAWwwwwrrrRRRRR dat's all folks!"
     /><br />
-    <div class="text">
+    <div class="text container">
       <label for="title1" id="userSearch">Search Title:</label>
       <input type="text" name="title1" id="title" />
       <div id="queryError" class="redError"></div>
@@ -54,10 +72,14 @@
     <div id="dateError" class="redError"></div>
     <div class="text">
       <button type="search" id="fetch" class="text">Search</button>
-    </div>
+    </div><br />
     <div id="resultsTitles" class="text"></div>
     <div id="searchErr" class="text redError"></div>
 
     <script src="moviesearch.js"></script>
+    <br />
+    <div id="pageNum" class="text"></div>
+      <div id="resultsTitles" class="text"></div>
+    </div>
   </body>
 </html>
