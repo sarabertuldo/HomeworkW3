@@ -1,0 +1,12 @@
+.pageContainer {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+}
+
+.errorMsg {
+  color: red;
+  text-align: center;
+}
