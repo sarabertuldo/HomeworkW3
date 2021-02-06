@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="blackjack.css" />
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="gameArea text">
+        <div>
+          <div class="gameStats wins">Wins:</div>
+          <div class="gameStats losses">Losses:</div>
+          <div class="gameStats ties">Ties:</div>
+        </div>
+        <br />
+
+        <div class="text">
+          Dealer's cards:<br />
+          <div class="cardArea card"></div>
+          <div class="cardArea card facedown"></div>
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+        </div>
+        <br />
+
+        <div class="text">
+          Your cards:<br />
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+          <div class="cardArea card"></div>
+        </div>
+        <br />
+
+        <div>
+          <button class="buttonArea button" id="hit">Hit</button>
+          <button class="buttonArea button" id="stay">Stay</button>
+          <button class="buttonArea button" id="playGame">Play Game</button>
+        </div>
+      </div>
+
+      <label for="winnerDetails" id="winnerDetails"></label>
+    </div>
+    <script src="blackjack.js"></script>
+  </body>
+</html>
+
+<!--<div class="cardArea text">
+          Dealer's cards:
+          <div class="cardARea card"></div>
+          <div class="cardARea card"></div>
+          <div class="cardARea card"></div>
+          <div class="cardARea card"></div>
+          <div class="cardARea card"></div>
+        </div>-->

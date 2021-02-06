@@ -2,7 +2,7 @@
   margin: auto;
   text-align: center;
   display: flex;
-  width: 500px;
+  width: 800px;
   flex-direction: column;
 }
 
@@ -10,3 +10,107 @@
   color: red;
   text-align: center;
 }
+
+.gameArea {
+  border: 5px solid black;
+  min-width: 500px;
+  min-height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: left;
+  padding: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 98, 27, 1) 0%,
+    rgba(65, 138, 16, 1) 45%,
+    rgba(58, 190, 32, 1) 100%
+  );
+}
+
+.gameStats {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cardArea {
+  flex-wrap: wrap;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.card {
+  width: 95px;
+  height: 140px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  flex-direction: inline-block;
+}
+
+.buttonArea {
+  width: 100px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.clubs {
+  width: 75px;
+  height: 100px;
+}
+
+.diamonds {
+  width: 75px;
+  height: 100px;
+}
+
+.hearts {
+  width: 75px;
+  height: 100px;
+}
+
+.spades {
+  width: 75px;
+  height: 100px;
+}
+
+.facedown {
+  width: 95px;
+  height: 140px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+span.number,
+span.suit {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.button {
+  width: 100px;
+  text-align: center;
+}
+
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.testblock {
+  display: inline-block;
+}
+
+/* Make sure to start with an ampersand, finish with a semi-colon, 
+and use no spaces between the ampersand and semi-colon
+♥ – type &hearts; into your HTML document.
+♦ – type &diams; into your HTML document
+♠ – type &spades; into your HTML document
+♣ – type &clubs; into your HTML document 
+*/
