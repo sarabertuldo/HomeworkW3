@@ -11,8 +11,11 @@
       <div class="gameArea text">
         <div>
           <div class="gameStats wins">Wins:</div>
+          <div></div>
           <div class="gameStats losses">Losses:</div>
+          <div></div>
           <div class="gameStats ties">Ties:</div>
+          <div></div>
         </div>
         <br />
 
@@ -36,24 +39,26 @@
         </div>
         <br />
 
-        <div>
-          <button class="buttonArea button" id="hit">Hit</button>
-          <button class="buttonArea button" id="stay">Stay</button>
-          <button class="buttonArea button" id="playGame">Play Game</button>
+        <div class="bottomArea">
+          <div class="deck bottomArea">
+            <div class="cardDeck"></div>
+            <div class="cardDeck2"></div>
+            <div class="cardDeck3"></div>
+            <div class="cardDeck4"></div>
+            <div class="cardDeck5"></div>
+          </div>
+
+          <div class="buttonArea">
+            <button class="button" id="hit">Hit</button>
+            <button class="button" id="stay">Stay</button>
+            <button class="button" id="playGame">Play Game</button>
+          </div>
         </div>
       </div>
 
       <label for="winnerDetails" id="winnerDetails"></label>
     </div>
+    </div>
     <script src="blackjack.js"></script>
   </body>
 </html>
-
-<!--<div class="cardArea text">
-          Dealer's cards:
-          <div class="cardARea card"></div>
-          <div class="cardARea card"></div>
-          <div class="cardARea card"></div>
-          <div class="cardARea card"></div>
-          <div class="cardARea card"></div>
-        </div>-->

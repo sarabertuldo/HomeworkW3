@@ -51,9 +51,88 @@
   flex-direction: inline-block;
 }
 
-.buttonArea {
-  width: 100px;
+.bottomArea {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+}
+
+.deck {
+  flex-wrap: wrap;
   display: inline-block;
+  margin: auto;
+  width: 50px;
+}
+
+.cardDeck {
+  z-index: 5;
+  width: 95px;
+  height: 140px;
+  position: relative;
+  top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 0px 50px 0px 50px;
+}
+
+.cardDeck2 {
+  z-index: 4;
+  width: 95px;
+  height: 140px;
+  position: relative;
+  bottom: 100px;
+  left: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 0px 50px 0px 50px;
+}
+
+.cardDeck3 {
+  z-index: 3;
+  width: 95px;
+  height: 140px;
+  position: relative;
+  bottom: 230px;
+  left: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 0px 50px 0px 50px;
+}
+
+.cardDeck4 {
+  z-index: 2;
+  width: 95px;
+  height: 140px;
+  position: relative;
+  bottom: 360px;
+  left: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 0px 50px 0px 50px;
+}
+
+.cardDeck5 {
+  z-index: 1;
+  width: 95px;
+  height: 140px;
+  position: relative;
+  bottom: 490px;
+  left: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  margin: 0px 50px 0px 50px;
+}
+
+.buttonArea {
+  width: 400px;
+  display: inline-block;
+  margin: 100px 0px;
+  margin-right: 100px;
   flex-direction: row;
   justify-content: space-evenly;
 }
@@ -108,9 +187,9 @@ span.suit {
 }
 
 /* Make sure to start with an ampersand, finish with a semi-colon, 
-and use no spaces between the ampersand and semi-colon
-♥ – type &hearts; into your HTML document.
-♦ – type &diams; into your HTML document
-♠ – type &spades; into your HTML document
-♣ – type &clubs; into your HTML document 
-*/
+  and use no spaces between the ampersand and semi-colon
+  ♥ – type &hearts; into your HTML document.
+  ♦ – type &diams; into your HTML document
+  ♠ – type &spades; into your HTML document
+  ♣ – type &clubs; into your HTML document 
+  */
