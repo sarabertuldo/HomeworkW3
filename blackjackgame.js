@@ -21,17 +21,17 @@ stay.addEventListener("click", function () {
 let dealerSum
 let playerSum
 
-// if (playerSum > dealerSum) {
-//     console.log("Player Wins")
-// }
-// if (playerSum === 21) {
-//     console.log("Player wins")
-// }
-// if (playerSum > 21) {
-//     console.log("Dealer Wins")
-// } else (playerSum < dealerSum) {
-//     console.log("Dealer Wins")
-// }
-// else if (playerSum === dealerSum) {
-//     console.log("It is a tie!")
-// }
+ if (playerSum > dealerSum) {
+     console.log("Player Wins")
+ }
+ if (playerSum === 21) {
+     console.log("Player wins")
+ }
+ if (playerSum > 21) {
+     console.log("Dealer Wins")
+ } else (playerSum < dealerSum) {
+     console.log("Dealer Wins")
+ }
+ else if (playerSum === dealerSum) {
+     console.log("It is a tie!")
+ }
